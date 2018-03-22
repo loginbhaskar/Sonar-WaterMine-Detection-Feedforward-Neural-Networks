@@ -10,7 +10,7 @@ tf.reset_default_graph()
 
 # Reading the dataset
 def read_dataset():
-    df = pd.read_csv("C:\\Users\\phani\\Desktop\\tf\\Sonar\\sonar.csv")
+    df = pd.read_csv("C:\\Users\\phani\\Desktop\\tf\\Sonar-WaterMine-Detection-Feedforward-Neural-Networks\\sonar.csv")
      #print(len(df.columns))
     X = df[df.columns[0:60]].values
     y = df[df.columns[60]]
@@ -47,13 +47,13 @@ print(train_y.shape)
 print(test_x.shape)
 
 # Define the important parameters and variable to work with the tensors
-learning_rate = 0.3
+learning_rate = 0.16
 training_epochs = 1000
 cost_history = np.empty(shape = [1], dtype=float)
 n_dim = X.shape[1]
 print("n_dim", n_dim)
 n_class = 2
-model_path = "C:\\Users\\phani\\Desktop\\tf\\Sonar\\NMI"
+model_path = "C:\\Users\\phani\\Desktop\\tf\\Sonar-WaterMine-Detection-Feedforward-Neural-Networks\\NMI"
 
 # Define the number of hidden layers and number of neurons for each layer
 n_hidden_1 = 60

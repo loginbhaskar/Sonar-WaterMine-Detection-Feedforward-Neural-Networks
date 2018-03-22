@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\phani\\Desktop\\tf\\Sonar\\NMI"
-all_model_checkpoint_paths: "C:\\Users\\phani\\Desktop\\tf\\Sonar\\NMI"
+model_checkpoint_path: "C:\\Users\\phani\\Desktop\\tf\\Sonar-WaterMine-Detection-Feedforward-Neural-Networks\\NMI"
+all_model_checkpoint_paths: "C:\\Users\\phani\\Desktop\\tf\\Sonar-WaterMine-Detection-Feedforward-Neural-Networks\\NMI"
